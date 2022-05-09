@@ -1,0 +1,39 @@
+/* RESET */
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic */
+body{
+
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  background-color: black;
+}
+
+.button{
+
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: 1px solid #4a4a4a;
+  background-color: #4a4a4a;
+  color: white;
+  margin-right: 4px;
+  margin-top: 5px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Header */
+header{
+
+  height: 50px;   
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav-header{
+
+  text-align: right;
+}
