@@ -15,15 +15,10 @@ body{
 }
 
 /* Column Alignment */
-.column-align-left{
+.column-align{
 
-  justify-content: left;
-  align-items: center;
-}
-
-.column-align-center{
-  
-  justify-content: center;
+  height: 100%;
+  justify-content: space-between;
   align-items: center;
 }
 /* Buttons */
@@ -71,12 +66,12 @@ header{
 /* MAIN */
 main{
 
-  height: calc(100vh - 150px);
+  height: calc(100vh - 120px);
   overflow: auto;
 }
 
 /* Main img */
-.display-flex div{
+.image div{
 
   margin: 10px 3px;
   position: relative;
@@ -95,10 +90,11 @@ main{
 /* FOOTER */
 footer{
 
-  height: 100px;
+  height: 70px;
   background-color: #222222;
 }
 
+/* Footer List */
 li span{
 
   display: block;
@@ -107,7 +103,25 @@ li span{
 
 li{
 
-  font-size: 14px;
+  font-size: 12px;
   text-align: center;
   padding: 0 10px;
+  vertical-align: middle;
+}
+
+/* Footer button */
+.end-button{
+  padding: 0 20px;
+  line-height: 70px;
+  color: red;
+  font-size: 13px;
+}
+
+/* Color */
+.bg-grey{
+  background-color: #4a4a4a;
+}
+
+.green{
+  color: #4cc800;
 }
