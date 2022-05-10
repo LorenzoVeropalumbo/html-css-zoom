@@ -67,10 +67,14 @@ header{
 main{
 
   height: calc(100vh - 120px);
-  overflow: auto;
+  overflow-y: auto;
 }
 
 /* Main img */
+.image{
+  justify-content: center;
+}
+
 .image div{
 
   margin: 10px 3px;
